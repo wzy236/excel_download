@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* 背景颜色 */
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333; /* 文字颜色 */
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0070f3; /* 按钮背景颜色 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005bb5; /* 悬停时按钮背景颜色 */
+}
+
+.error {
+    margin-top: 20px;
+    color: red; /* 错误信息颜色 */
+}
